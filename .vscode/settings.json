@@ -1,0 +1,9 @@
+{
+    "liveServer.settings.port": 5501,
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/c311c9b8-2fe0-421c-aa66-1dbd31bab131/resourceGroups/tts-project/providers/Microsoft.Web/sites/tts-demo",
+    "appService.deploySubpath": "."
+}
