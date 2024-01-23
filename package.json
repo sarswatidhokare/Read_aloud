@@ -17,10 +17,6 @@
   "devDependencies": {
     "nodemon": "^3.0.2"
   }
-  {
-  "scripts": {
-    "test": "mocha"  // replace with your test command, for example: "jest", "ava", etc.
-  }
 }
 
 }
