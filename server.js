@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // MongoDB Connection URL
-const mongoURL = 'mongodb://localhost:27017'; // Update with your MongoDB connection string
+const mongoURL = 'mongodb://ttsuser:MhNCJt97ZlEL4zdOyNWjuvhOfkoOjOoIgj0YRf8LIoSihbpGFh9sBhiVSGfUhaU6zMBwAqKc9WoZACDbC8sxWQ==@ttsuser.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@ttsuser@'; // Update with your MongoDB connection string
 
 // Database Name
 const dbName = 'textToSpeech'; // Update with your database name
