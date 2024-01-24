@@ -15,7 +15,7 @@ const mongoURL = 'mongodb://localhost:27017'; // Update with your MongoDB connec
 const dbName = 'textToSpeech'; // Update with your database name
 
 // Start the server
-const port = 4000;
+const port = process.env.PORT || 4000;
 async function startServer() {
   try {
     // Connect to MongoDB
