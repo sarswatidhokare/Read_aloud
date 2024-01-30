@@ -23,8 +23,72 @@
             }
           }
           </style>
+          <style>
+            /* Style for the button */
+            #stickyButton {
+              position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 10px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            }
+
+            .close-btn {
+        position: absolute;
+        top: 400px; /* Adjust the top position as needed */
+        left: 1050px;
+        width: 90px;
+        padding: 7px;
+        background-color: #3cb1e7; /* Red color as an example */
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+        </style>
      </head>
+     
   <body class="container mt-5 bg-dark">
+    <button id="stickyButton">🤖Ask me!</button>
+    <div id="chatbotContainer" style="display: none;">
+      <iframe
+        src='https://webchat.botframework.com/embed/myazbotlang-bot?s=IjbbNsNJ2BA.zcR_FB2RDsVB3apShra8tyLAU1pJdbxUjW7HOQO47AA'
+        style='min-width: 50px; width: 25%; min-height: 350px; margin-left: 850px; position: absolute;'
+        id="chatbotIframe"
+      ></iframe>
+      <button class="close-btn" onclick="closeChatbot()">Close</button>
+    </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var chatIcon = document.getElementById('stickyButton');
+        var chatbotContainer = document.getElementById('chatbotContainer');
+        var chatbotIframe = document.getElementById('chatbotIframe');
+
+        chatIcon.addEventListener('click', function () {
+          // Toggle iframe visibility
+          chatbotContainer.style.display = chatbotContainer.style.display === 'none' ? 'block' : 'none';
+        });
+
+        // Add event listener for messages from the iframe
+        window.addEventListener('message', function (event) {
+          if (event.data === 'closeChatbot') {
+            closeChatbot();
+          }
+        });
+      });
+
+      function closeChatbot() {
+        document.getElementById('chatbotContainer').style.display = 'none';
+
+        // Send a message to the iframe to close itself
+        var chatbotIframe = document.getElementById('chatbotIframe');
+        chatbotIframe.contentWindow.postMessage('closeChatbot', '*');
+      }
+    </script>
     <h1 class="glow">Read aloud</h1>
     <p class="lead text-light mt-4">Select Voice</p>
 
@@ -68,6 +132,7 @@
       <button id="clearText" class="btn btn-info mt-5 me-3">Clear</button>
       
     </div>
+  
     
     
     <!-- Add a button to display saved text -->
@@ -79,6 +144,9 @@
       </textarea>
 
     </div>
+
+    
+      
   </body>
   <script>
     // Initialize new SpeechSynthesisUtterance object
@@ -227,5 +295,8 @@ document.querySelector("#cancel").addEventListener("click", () => {
       });
   });
 </script>
+
+
+
 
 </html>
