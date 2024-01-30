@@ -7,7 +7,7 @@
 <h2>Project Details</h2>
 <b>Project Demo URL :</b> https://myttsappazureap.azurewebsites.net/ <br>
 <b>Demo Video URL :</b> https://drive.google.com/file/d/1bLptg01EM3NtTRZY6j6X_FCmrwf_2TN9/view <br>
-<b>Github Repository URL :</b> https://github.com/AnkeetaGupta/flask-ai-translation.git <br>
+<b>Github Repository URL :</b> https://github.com/sarswatidhokare/Read_aloud <br>
     
 <b>Industry :</b> Lifestyle and Technology<br>
 <h2>Azure Services Used</h2>
@@ -53,10 +53,11 @@ Implement user accounts and secure authentication to provide personalized settin
 
 <h2>Core Azure Services</h2>
 <b>Azure App Service :</b><br><p align="justify"><br>The project utilizes Azure App Service to host the web application, ensuring scalability, reliability, and ease of deployment. This service enables seamless integration with other Azure components and provides a secure environment for the application.</p>
+<img src="https://github.com/sarswatidhokare/Read_aloud/blob/main/images/appservice.png"></img><br>
 
 <b>Azure cosmosdb for mongodb Dtatabase :</b><br>
 <b>Description :</b><p align="justify"> This comprehensive project documentation outlines the process and methodologies involved in migrating a MongoDB database to Azure Cosmos DB within the Azure cloud ecosystem. The seamless transition from a traditional MongoDB setup to a globally distributed, multi-model database service like Azure Cosmos DB marks a strategic move towards scalability, global reach, and enhanced performance.</p>
-<img src="https://github.com/nehaabc/text_summarizer/blob/main/screenshots/database.png"></img><br>
+<img src="https://github.com/sarswatidhokare/Read_aloud/blob/main/images/database.png"></img><br>
 
 <h2>Azure AI Service</h2>
 <b>Azure AI Text-to-Speech Service :</b><br><br><p align="justify">
@@ -69,7 +70,7 @@ Azure AI Chatbot service enables the creation of intelligent, interactive chatbo
 
 <h3>Working Live Project Display</h3>
 <b>Description :</b><p align="justify">Here I am attaching the final working website's screenshot for the reference.</p>
-<img src="https://github.com/nehaabc/text_summarizer/blob/main/screenshots/working-image.png"></img>
+<img src="https://github.com/sarswatidhokare/Read_aloud/blob/main/images/liveprojectdisplay.png"></img>
 
 <h2>Other Azure Technologies / Services</h2>
 <p align="justify">In the Multilingual Content Hub, Azure Monitor and Azure Application Insights collaboratively form a dynamic duo, meticulously overseeing application health and person stories.</p>
@@ -85,26 +86,26 @@ Azure AI Chatbot service enables the creation of intelligent, interactive chatbo
 <h2>Screenshots</h2>
 <h3>Azure App Service</h3>
 <b>Description :</b><p align="justify">Azure App Service provides a scalable and reliable hosting environment for the Multilingual Content Hub. It ensures seamless deployment and high availability, facilitating an optimal user experience.</p>
-<img src="https://github.com/AnkeetaGupta/flask-ai-translation/blob/main/screenshots/app-service.png" alt="azure-app-service"></img><br>
+<img src="https://github.com/sarswatidhokare/Read_aloud/blob/main/images/appservice.png"></img><br>
 
 <h3>Azure cosmosdb for mongodb Dtatabase</h3>
 <b>Description :</b><p align="justify"> The project leverages Azure Database for MySQL to efficiently manage and store user interaction history. This relational database service ensures data consistency and supports quick retrieval of information.</p>
-<img src="https://github.com/AnkeetaGupta/flask-ai-translation/blob/main/screenshots/app-db.png" alt="azure-mysql-db-service"></img><br>
+<img src="https://github.com/sarswatidhokare/Read_aloud/blob/main/images/database.png"></img><br>
 
 <h3>Azure AI Text-to-Speech Service</h3>
 <b>Description :</b><p align="justify">Azure AI Text-to-Speech service transforms written text into lifelike speech, offering high-quality voices and customizable speech characteristics.</p>
-<img src="https://github.com/AnkeetaGupta/flask-ai-translation/blob/main/screenshots/app-ai.png" alt="azure-translator-ai-service"></img><br>
+<img src="https://github.com/sarswatidhokare/Read_aloud/blob/main/images/speechservice.png"></img><br>
 
 <h3>Azure AI chatbot Service</h3>
 <b>Description :</b><p align="justify">Azure AI Chatbot service enables the creation of intelligent, interactive chatbots with natural language understanding, leveraging machine learning.</p>
-<img src="https://github.com/AnkeetaGupta/flask-ai-translation/blob/main/screenshots/app-ai.png" alt="azure-translator-ai-service"></img><br>
+<img src="https://github.com/sarswatidhokare/Read_aloud/blob/main/images/chatbot.png"></img><br>
 
 <h3>Working Live Project Display</h3>
 <b>Description :</b><p align="justify">Here I am attaching the final working website's screenshot for the reference.</p>
-<img src="https://github.com/AnkeetaGupta/flask-ai-translation/blob/main/screenshots/final-project.png" alt="final-project-demo"></img>
+<img src="https://github.com/sarswatidhokare/Read_aloud/blob/main/images/liveprojectdisplay.png"></img>
 
 <h3>Resource Visualizer</h3>
-<img src="https://github.com/AnkeetaGupta/flask-ai-translation/blob/main/screenshots/flask-ai.jpg" alt="resource-display"></img>
+<img src="https://github.com/sarswatidhokare/Read_aloud/blob/main/images/tts-project.png" alt="resource-display"></img>
 
 <h2>Final Project Statement</h2>
 <p align="justify">
