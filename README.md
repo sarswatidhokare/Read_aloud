@@ -6,7 +6,7 @@
 <br>
 <h2>Project Details</h2>
 <b>Project Demo URL :</b> https://myttsappazureap.azurewebsites.net/ <br>
-<b>Demo Video URL :</b> https://drive.google.com/file/d/1bLptg01EM3NtTRZY6j6X_FCmrwf_2TN9/view <br>
+<b>Demo Video URL :</b> https://drive.google.com/file/d/1KhcZwgbZkWtLUKFjQP-G9t1aa9-2nH66/view?usp=sharing <br>
 <b>Github Repository URL :</b> https://github.com/sarswatidhokare/Read_aloud <br>
     
 <b>Industry :</b> Lifestyle and Technology<br>
