@@ -89,6 +89,13 @@
         chatbotIframe.contentWindow.postMessage('closeChatbot', '*');
       }
     </script>
+    <script>
+      function saveText() {
+          // Assume you have some logic to save the text here
+          // For demonstration purposes, let's just show an alert
+          alert("Text saved successfully!");
+      }
+  </script>
     <h1 class="glow">Read aloud</h1>
     <p class="lead text-light mt-4">Select Voice</p>
 
@@ -128,7 +135,7 @@
       <button id="pause" class="btn btn-warning mt-5 me-3">Pause</button>
       <button id="resume" class="btn btn-info mt-5 me-3">Resume</button>
       <button id="cancel" class="btn btn-danger mt-5 me-3">Cancel</button>
-      <button id="start" class="btn btn-success mt-5 me-3">Save</button>
+      <button onclick="saveText()" id="start" class="btn btn-success mt-5 me-3">Save</button>
       <button id="clearText" class="btn btn-info mt-5 me-3">Clear</button>
       
     </div>
