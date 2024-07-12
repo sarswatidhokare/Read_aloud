@@ -17,8 +17,7 @@ Core Azure Services : <br>
 2. Azure cosmosdb for mongodb Database <br> <br>
     
 Azure AI Service <br>
-1. Azure AI Text-to-Speech service
-2. Azure Chatbot Service
+1. Azure Chatbot Service
 </h3>
 
 <h2>Problem Statement</h2>
@@ -60,10 +59,6 @@ Implement user accounts and secure authentication to provide personalized settin
 <br>
 
 <h2>Azure AI Service</h2>
-<b>Azure AI Text-to-Speech Service :</b><br><br><p align="justify">
-    Azure AI Text-to-Speech service transforms written text into lifelike speech, offering high-quality voices and customizable speech characteristics. Easily integrated through Azure APIs, it enhances accessibility and engagement in applications, from virtual assistants to e-learning platforms.
-</p>
-
 <b>Azure AI chatbot Service :</b><br><br><p align="justify">
 Azure AI Chatbot service enables the creation of intelligent, interactive chatbots with natural language understanding, leveraging machine learning. Seamlessly integrated with Azure, it empowers applications to provide intuitive and personalized user interactions.
 </p>
@@ -87,10 +82,6 @@ Azure AI Chatbot service enables the creation of intelligent, interactive chatbo
 <h3>Azure cosmosdb for mongodb Dtatabase</h3>
 <b>Description :</b><p align="justify"> This comprehensive project documentation outlines the process and methodologies involved in migrating a MongoDB database to Azure Cosmos DB within the Azure cloud ecosystem. The seamless transition from a traditional MongoDB setup to a globally distributed, multi-model database service like Azure Cosmos DB marks a strategic move towards scalability, global reach, and enhanced performance.</p>
 <img src="https://github.com/sarswatidhokare/Read_aloud/blob/main/images/databasenew.png"></img><br>
-
-<h3>Azure AI Text-to-Speech Service</h3>
-<b>Description :</b><p align="justify">Azure AI Text-to-Speech service transforms written text into lifelike speech, offering high-quality voices and customizable speech characteristics.</p>
-<img src="https://github.com/sarswatidhokare/Read_aloud/blob/main/images/speechservicenew.png"></img><br>
 
 <h3>Azure AI chatbot Service</h3>
 <b>Description :</b><p align="justify">Azure AI Chatbot service enables the creation of intelligent, interactive chatbots with natural language understanding, leveraging machine learning.</p>
